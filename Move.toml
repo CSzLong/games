@@ -3,8 +3,8 @@ name = "games"
 version = "0.0.1"
 
 [dependencies]
-# /Users/chris/github_projects/games/build/games/sources/dependencies/MoveStdlib/ascii.moveSui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
-Sui = { local = "../../sui/crates/sui-framework" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+# Sui = { local = "../../sui/crates/sui-framework" }
 
 [addresses]
 games =  "0x0"
